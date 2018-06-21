@@ -1,0 +1,65 @@
+@font-face {
+    font-family: katong;
+    src: url('../fonts/oaACu_GBK.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: katong;
+}
+
+@media only screen and (min-width: 320px) {
+    html {
+        font-size: 62.5% !important;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    html {
+        font-size: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    html {
+        font-size: 120% !important;
+    }
+}
+
+@media only screen and (min-width: 1242px) {
+    html {
+        font-size: 130% !important;
+    }
+}
+
+html{
+    overflow:hidden;
+}
+body {
+    text-align:center;
+    margin:0 auto;
+    padding: 0;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    position:relative;
+}
+.game {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color:lightcoral;
+}
+canvas{
+    position:absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+}

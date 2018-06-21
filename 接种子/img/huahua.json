@@ -1,0 +1,196 @@
+{"frames": [
+
+{
+	"filename": "fafa_00001.png",
+	"frame": {"x":1,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00002.png",
+	"frame": {"x":252,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00003.png",
+	"frame": {"x":503,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00004.png",
+	"frame": {"x":754,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00005.png",
+	"frame": {"x":1005,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00006.png",
+	"frame": {"x":1256,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00007.png",
+	"frame": {"x":1507,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00008.png",
+	"frame": {"x":1758,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00009.png",
+	"frame": {"x":2009,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00010.png",
+	"frame": {"x":2260,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00011.png",
+	"frame": {"x":2511,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00012.png",
+	"frame": {"x":2762,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00013.png",
+	"frame": {"x":3013,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00014.png",
+	"frame": {"x":3264,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00015.png",
+	"frame": {"x":3515,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00016.png",
+	"frame": {"x":3766,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00017.png",
+	"frame": {"x":4017,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00018.png",
+	"frame": {"x":4268,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00019.png",
+	"frame": {"x":4519,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00020.png",
+	"frame": {"x":4770,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00021.png",
+	"frame": {"x":5021,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00022.png",
+	"frame": {"x":5272,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+},
+{
+	"filename": "fafa_00023.png",
+	"frame": {"x":5523,"y":1,"w":249,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":247},
+	"sourceSize": {"w":249,"h":247}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "huahua.png",
+	"format": "RGBA8888",
+	"size": {"w":5773,"h":249},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cb53a3a2d9e62bac4f4a289ef95844f1:528140eaa743a783ae4911fdf6548821:86f21d36a30e6d167163c2a3b33be1de$"
+}
+}

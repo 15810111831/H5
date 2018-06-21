@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <title>手机适配例子</title>
+  <style>
+    html,body{
+      padding: 0;
+      margin: 0;
+    }
+    #game{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height:100%;
+    }
+  </style>
+</head>
+<body>
+<div id="game"></div>
+<script type="text/javascript" src="phaser.min.js"></script>
+<script>
+  var game = new Phaser.Game(window.innerWidth,window.innerHeight,Phaser.AUTO,"game",state);
+  function state(){
+    this.init = function(){
+      console.log("init")
+      if(game.device.desktop){
+        game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+        //居中
+        game.scale.pageAlignHorizontally = true;
+        game.scale.pageAlignVertically = true
+      }else{
+        if(game.width < game.height){
+          console.log("竖屏")
+        }else{
+          console.log("横屏")
+          game.world.resize(window.innerWidth,window.innerHeight)
+          game.scale.scaleMode = Phaser.ScaleManager.EXACT_FIT;
+          game.scale.fullScreenScaleMode = Phaser.ScaleManager.EXACT_FIT;
+          game.scale.pageAlignVertically = true
+          game.scale.pageAlignHorizontally = true
+        }
+      }
+    }
+    this.preload = function(){
+      console.log("preload")
+      game.load.image('bg','img/bg.png')
+      game.load.image('child1','img/child1.png')
+      game.load.image('child2','img/child2.png')
+      game.load.image('child3','img/child3.png')
+      game.load.image('huapen','img/huapen.png')
+    }
+    this.create = function(){
+      console.log("create")
+      if(game.height > game.width){
+        game.world.resize(window.innerHeight,window.innerWidth)
+      }else{
+
+      }
+      var bg = game.add.sprite(0,0,'bg')
+      bg.scale.x = window.innerWidth/1024
+      bg.scale.y = window.innerHeight/672
+
+      var child1 = game.add.sprite(100,100,'child1')
+      var child2 = game.add.sprite(250,100,'child2')
+      var child3 = game.add.sprite(550,100,'child3')
+      var huapen = game.add.sprite(400,672,'huapen')
+
+      var graphics = game.add.graphics(500,300)
+      graphics.beginFill(0x0000FF).drawCircle(0,0,50).endFill()
+      game.add.tween(graphics).to({ alpha: 0.5}, 500, 'Linear', true,1,10);
+
+    }
+    this.update = function(){
+//      console.log("update")
+
+    }
+    this.render = function(){
+//      console.log("render")
+
+    }
+  }
+</script>
+</body>
+</html>
