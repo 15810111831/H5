@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a7713b-768b-45a9-a7e4-6cd2201f5278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/接种子/fonts/oaACu_GBK.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/接种子/fonts/oaACu_GBK.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/接种子/fonts/oaACu_GBK.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/接种子/fonts/oaACu_GBK.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/超级连线/fonts/oaACu_GBK.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/超级连线/fonts/oaACu_GBK.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/超级连线/fonts/oaACu_GBK.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/超级连线/fonts/oaACu_GBK.woff" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/接种子/css/style.css" afterPath="$PROJECT_DIR$/接种子/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/超级连线/js/main.js" afterPath="$PROJECT_DIR$/超级连线/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,12 +39,13 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/连连看/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="165" column="17" lean-forward="true" selection-start-line="161" selection-start-column="16" selection-end-line="165" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="e#108#1065#0" expanded="false" />
                 <element signature="e#1116#1449#0" expanded="false" />
                 <element signature="e#2821#3572#0" expanded="false" />
+                <element signature="e#3598#6602#0" expanded="false" />
                 <element signature="e#6641#14800#0" expanded="false" />
                 <element signature="e#6946#8475#0" expanded="false" />
                 <element signature="e#7173#7723#0" expanded="false" />
@@ -52,6 +63,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/超级连线/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/接种子/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -77,23 +108,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/超级连线/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="149" column="48" lean-forward="false" selection-start-line="149" selection-start-column="48" selection-end-line="149" selection-end-column="48" />
+            <state relative-caret-position="-467">
+              <caret line="181" column="46" lean-forward="false" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
               <folding>
                 <element signature="e#3056#5799#0" expanded="false" />
                 <element signature="e#3402#3666#0" expanded="false" />
                 <element signature="e#3719#5469#0" expanded="false" />
                 <element signature="e#5534#5792#0" expanded="false" />
-                <element signature="e#5849#9038#0" expanded="false" />
-                <element signature="e#9069#9075#0" expanded="false" />
-                <element signature="e#9102#9108#0" expanded="false" />
-                <element signature="e#9135#9141#0" expanded="false" />
+                <element signature="e#9281#9287#0" expanded="false" />
+                <element signature="e#9314#9320#0" expanded="false" />
+                <element signature="e#9347#9353#0" expanded="false" />
                 <element signature="n#!!block;n#getPoint#0" expanded="false" />
-                <element signature="e#9282#9477#0" expanded="false" />
-                <element signature="e#9530#9959#0" expanded="false" />
+                <element signature="e#9494#9689#0" expanded="false" />
+                <element signature="e#9742#10171#0" expanded="false" />
                 <element signature="n#!!block;n#check#0" expanded="false" />
                 <element signature="n#!!block;n#checkCircle#0" expanded="false" />
               </folding>
@@ -153,7 +183,6 @@
         <option value="$PROJECT_DIR$/excample/phaser-3.7.1.js" />
         <option value="$PROJECT_DIR$/excample/example.html" />
         <option value="$PROJECT_DIR$/example/example.html" />
-        <option value="$PROJECT_DIR$/接种子/css/style.css" />
         <option value="$PROJECT_DIR$/接种子/js/main.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp57838/root/django/dodo-platform/static/app/js/book/realstorybook.js" />
         <option value="$PROJECT_DIR$/接种子/index.html" />
@@ -167,6 +196,7 @@
         <option value="$PROJECT_DIR$/超级连线/index.html" />
         <option value="$PROJECT_DIR$/超级连线/js/config.js" />
         <option value="$PROJECT_DIR$/超级连线/js/main.js" />
+        <option value="$PROJECT_DIR$/接种子/css/style.css" />
       </list>
     </option>
   </component>
@@ -213,6 +243,17 @@
             <path>
               <item name="phaser" type="b2602c69:ProjectViewProjectNode" />
               <item name="phaser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="接种子" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="接种子" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,12 +321,12 @@
       <workItem from="1528090526273" duration="622000" />
       <workItem from="1528366497458" duration="5694000" />
       <workItem from="1528685331652" duration="80115000" />
-      <workItem from="1529374550604" duration="59362000" />
+      <workItem from="1529374550604" duration="59998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283859000" />
+    <option name="totallyTimeSpent" value="284495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,8 +339,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -345,13 +387,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/example.html" />
-    <entry file="file://$PROJECT_DIR$/接种子/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/groupAd/css/propagate.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp57838/root/django/dodo-platform/static/app/js/book/realstorybook.js" />
     <entry file="file://$PROJECT_DIR$/example/phaser.min.js">
@@ -488,14 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/超级连线/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -683,12 +710,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/连连看/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="165" column="17" lean-forward="true" selection-start-line="161" selection-start-column="16" selection-end-line="165" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
             <element signature="e#108#1065#0" expanded="false" />
             <element signature="e#1116#1449#0" expanded="false" />
             <element signature="e#2821#3572#0" expanded="false" />
+            <element signature="e#3598#6602#0" expanded="false" />
             <element signature="e#6641#14800#0" expanded="false" />
             <element signature="e#6946#8475#0" expanded="false" />
             <element signature="e#7173#7723#0" expanded="false" />
@@ -702,23 +730,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/超级连线/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="149" column="48" lean-forward="false" selection-start-line="149" selection-start-column="48" selection-end-line="149" selection-end-column="48" />
+        <state relative-caret-position="-467">
+          <caret line="181" column="46" lean-forward="false" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
           <folding>
             <element signature="e#3056#5799#0" expanded="false" />
             <element signature="e#3402#3666#0" expanded="false" />
             <element signature="e#3719#5469#0" expanded="false" />
             <element signature="e#5534#5792#0" expanded="false" />
-            <element signature="e#5849#9038#0" expanded="false" />
-            <element signature="e#9069#9075#0" expanded="false" />
-            <element signature="e#9102#9108#0" expanded="false" />
-            <element signature="e#9135#9141#0" expanded="false" />
+            <element signature="e#9281#9287#0" expanded="false" />
+            <element signature="e#9314#9320#0" expanded="false" />
+            <element signature="e#9347#9353#0" expanded="false" />
             <element signature="n#!!block;n#getPoint#0" expanded="false" />
-            <element signature="e#9282#9477#0" expanded="false" />
-            <element signature="e#9530#9959#0" expanded="false" />
+            <element signature="e#9494#9689#0" expanded="false" />
+            <element signature="e#9742#10171#0" expanded="false" />
             <element signature="n#!!block;n#check#0" expanded="false" />
             <element signature="n#!!block;n#checkCircle#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/超级连线/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/接种子/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

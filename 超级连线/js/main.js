@@ -177,6 +177,9 @@ function state(){
                             console.log('游戏结束  稍后进入下一关')
                             var timer = game.time.create(false)
                             timer.add(500,function(){
+                              var mask = game.add.graphics()
+                              mask.beginFill(0x000000).drawRect(0,0,game.world.width,game.world.height)
+                              mask.alpha = 0.5
                               var next = game.add.sprite(game.world.centerX,game.world.centerY,'next')
                               next.inputEnabled = true
                               next.anchor.setTo(0.5,0.5)
