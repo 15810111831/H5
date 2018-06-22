@@ -16,12 +16,18 @@ function state(){
   this.preload = function(){
     game.load.image('bg', 'images/bg.jpg')
     game.load.image('next', 'images/next.png')
+    game.load.atlas('pointer', 'images/pointer.png', 'images/pointer.json')
   }
   this.create = function(){
     game.add.image(0,0,'bg')
     var isMove = false, circleArr = [], lineCount = 0, littleCircleArr = [], tween = null,
       line = null, sign = null,index = -1, start = null
-      var positions = config[level].positions
+    var tipIndex = 0,tipPositions = [
+      [[450,330],[450,500,500,550,550,600,600],[280,280,330,330,280,280,330]],
+      [[450,380],[500,550,600],[380,380,380]],
+      [[450,430],[500,550,600],[430,430,430]]
+    ]
+    var positions = config[level].positions
     /*[
         [[450,250],[600,250]],[[450,300],[600,300]],
         [[450,350],[600,350]],[[450,400],[600,400]],
@@ -67,7 +73,13 @@ function state(){
       circle1.line = circle2.line = line
       circleArr.push(circle1,circle2)
     }
-
+    // 引导
+    if(level == 0){
+      var tipPointer = game.add.sprite(tipPositions[tipIndex][0][0],tipPositions[tipIndex][0][1],'pointer')
+      tipPointer.anchor.setTo(0.5,0.5)
+      var tipTween = game.add.tween(tipPointer).to({x:tipPositions[tipIndex][1],y:tipPositions[tipIndex][2]},1500,Phaser.Easing.Linear.None,true,0,-1)
+      tipTween.start()
+    }
     for(var i=0;i< circleArr.length;i++){
       var circle = circleArr[i]
       circle.inputEnabled = true
@@ -77,6 +89,7 @@ function state(){
         每个相同的点有一条自己的线，并且每条线需要记录自己所经过的点，
         如果摧毁当前的线，则需要把点的限制解开。
         并且将lineCount--*/
+        if(evt.x != tipPositions[tipIndex][0][0] || evt.y != (tipPositions[tipIndex][0][1] -30))return
         isMove = true
         if(tween){
           game.tweens.removeAll()
@@ -86,6 +99,7 @@ function state(){
             littleCircle.scale.x = littleCircle.scale.y = 1
           }
         }
+        tipPointer.visible = false
         for(var i=0,sum = points.length;i < sum;i++){
           if(evt.x == points[i][0] && evt.y == points[i][1]){
             // 显示鼠标位置
@@ -137,7 +151,7 @@ function state(){
       })
       circle.events.onInputUp.add(function(evt,pointer){
         isMove = false
-        sign.destroy()
+        if(sign) sign.destroy()
         evt.scale.set(1)
         for(let i=0;i<circleArr.length;i++){
           circle = circleArr[i]
@@ -146,10 +160,9 @@ function state(){
         }
       })
     }
-
     game.input.addMoveCallback(function(pointer){
       if(isMove){
-        sign.x = pointer.x,sign.y = pointer.y
+        if(sign)sign.x = pointer.x,sign.y = pointer.y
         for(var i=0,sum = points.length;i < sum;i++){
           if(Math.abs(pointer.x - points[i][0]) <= 20 &&Math.abs(pointer.y - points[i][1]) <= 20){
             if((points[index][0] == points[i][0] && Math.abs(points[index][1] - points[i][1]) == 50) || (points[index][1] == points[i][1] && Math.abs(points[index][0] - points[i][0]) == 50)) {
@@ -168,6 +181,15 @@ function state(){
                     if(circleArr[j].x == points[index][0] && circleArr[j].y == points[index][1]){
                       if(circleArr[j].key == start) {
                         // console.log("这条线已经画完")
+                        if(tipIndex < tipPositions.length - 1){
+                          tipIndex++
+                          tipPointer.x = tipPositions[tipIndex][0][0]
+                          tipPointer.y = tipPositions[tipIndex][0][1]
+                          tipPointer.visible = true
+                          var tipTween = game.add.tween(tipPointer).to({x:tipPositions[tipIndex][1],y:tipPositions[tipIndex][2]},1500,Phaser.Easing.Linear.None,true,0,-1)
+                          tipTween.start()
+                        }
+
                         line.endFill()
                         line.canDraw = false
                         lineCount++
@@ -228,8 +250,6 @@ function state(){
   this.render = function(){
 
   }
-
-
 }
 
 function getPoint(positions){

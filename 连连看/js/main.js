@@ -1,5 +1,5 @@
 var game = new Phaser.Game(1024,672,Phaser.AUTO,'game')
-var level = 0
+var level = 1
 var  states = {
   preload : function(){
     this.preload = function(){
@@ -14,6 +14,8 @@ var  states = {
       game.load.image('watermelon','images/xigua.png')
       game.load.image('next', 'images/next.png')
       game.load.image('restart', 'images/restart.png')
+      game.load.atlas('pig', 'images/pig-eat.png', 'images/pig-eat.json')
+      game.load.atlas('pointer', 'images/pointer.png', 'images/pointer.json')
 
       var progressText = game.add.text(game.world.centerX, game.world.centerY,'0%',{
         fontSize:'60px',
@@ -42,8 +44,13 @@ var  states = {
     this.create = function(){
       var start = null,end = null,clickArr = [],answerArr = [],dibanArr = [],begin = true
       var positions = config[level]
-      var bg = game.add.image(0,0,'bg')
-
+      var tipIndex = 0, tipPositions = [
+        [304,255],[384,255],[304,335],[464,335],[384,415],[464,415],[304,415],[464,255]
+      ]
+      game.add.image(0,0,'bg')
+      var pig = game.add.sprite(900,500,'pig')
+      pig.anchor.setTo(0.5,0.5)
+      var anim = pig.animations.add('play')
       for(let i=0;i< positions.length;i++){
         var diban = game.add.sprite(positions[i][0],positions[i][1],'diban')
         diban.anchor.setTo(0.5,0.5)
@@ -74,8 +81,13 @@ var  states = {
       for(var i =0;i< dibanArr.length;i++){
         game.world.setChildIndex(dibanArr[i].fruit,game.world.children.length -1)
       }
-
-      // console.log(clickArr)
+      //引导
+      if(level == 0){
+        var pointer = game.add.sprite(tipPositions[tipIndex][0] + 30,tipPositions[tipIndex][1] + 30,'pointer')
+        pointer.animations.add('play')
+        pointer.play('play',10,true)
+        pointer.anchor.setTo(0.5,0.5)
+      }
       function inputDown(evt){
         var target = null
         if(evt.key == 'diban'){
@@ -84,6 +96,13 @@ var  states = {
           target = evt
         }
         if(!begin)return
+        if(level == 0){
+          if(target.diban.x != tipPositions[tipIndex][0] || target.diban.y != tipPositions[tipIndex][1])return
+          if(tipIndex < tipPositions.length -1){
+            tipIndex++
+            var tween = game.add.tween(pointer).to({x:tipPositions[tipIndex][0] + 30,y:tipPositions[tipIndex][1] + 30},100,Phaser.Easing.Linear.InOut, true)
+          }
+        }
         if(!target.visible)return
         if(start && !end){
           if(start.key != target.key){
@@ -113,28 +132,35 @@ var  states = {
             console.log("yes yes yes")
             for(let j =0;j<answerArr.length;j++){
               // answerArr[j].visible = false
-              var tween = game.add.tween(answerArr[j]).to({x:[680,710,900], y: [152,165,450]},
+              var tween = game.add.tween(answerArr[j]).to({x:[680,710,880], y: [152,165,500]},
                 1000,Phaser.Easing.Quadratic.InOut, true).interpolation(function(v, k){
                 return Phaser.Math.bezierInterpolation(v, k);
               });
               tween.onComplete.add(function(evt){
                 evt.visible = false
-                begin = true
               })
             }
             if(result != 0){
               for(let m = 0;m<result.length;m++){
+                dibanArr[result[m]].dibanClick.visible = true
                 // dibanArr[result[m]].fruit.visible = false
-                var tween = game.add.tween(dibanArr[result[m]].fruit).to({x: [680,710,900], y: [152,165,450]},
+                var tween = game.add.tween(dibanArr[result[m]].fruit).to({x: [680,710,880], y: [152,165,500]},
                   1000,Phaser.Easing.Quadratic.InOut, true).interpolation(function(v, k){
                   return Phaser.Math.bezierInterpolation(v, k);
                 });
                 tween.onComplete.add(function(evt){
                   evt.visible = false
-                  begin = true
                 })
               }
             }
+            var pigDelay = game.time.create(false)
+            pigDelay.add(300,function(){
+              pig.play('play',15)
+            })
+            pigDelay.start()
+            anim.onComplete.add(function(){
+              begin = true
+            })
           }
           var timer = game.time.create(false)
           timer.add(100,function(){
@@ -150,6 +176,7 @@ var  states = {
             var theEnd = checkMove(dibanArr)
             console.log(theEnd)
             if(theEnd == 1){
+              if(level == 0)pointer.destroy()
               begin = false
               level++
               var mask = game.add.graphics()
@@ -265,6 +292,7 @@ var  states = {
                   }
                 }
               }
+              if(indexArr.length == 0)return -1
               return indexArr
             }
           }

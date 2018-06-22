@@ -1,0 +1,284 @@
+{"frames": {
+
+"猪魔九张嘴吃_00000.png":
+{
+	"frame": {"x":1,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00001.png":
+{
+	"frame": {"x":1,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00002.png":
+{
+	"frame": {"x":366,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00003.png":
+{
+	"frame": {"x":366,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00004.png":
+{
+	"frame": {"x":731,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00005.png":
+{
+	"frame": {"x":731,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00006.png":
+{
+	"frame": {"x":1096,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00007.png":
+{
+	"frame": {"x":1096,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00008.png":
+{
+	"frame": {"x":1461,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00009.png":
+{
+	"frame": {"x":1461,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00010.png":
+{
+	"frame": {"x":1826,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00011.png":
+{
+	"frame": {"x":1826,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00012.png":
+{
+	"frame": {"x":2191,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00013.png":
+{
+	"frame": {"x":2191,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00014.png":
+{
+	"frame": {"x":2556,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00015.png":
+{
+	"frame": {"x":2556,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00016.png":
+{
+	"frame": {"x":2921,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00017.png":
+{
+	"frame": {"x":2921,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00018.png":
+{
+	"frame": {"x":3286,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00019.png":
+{
+	"frame": {"x":3286,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00020.png":
+{
+	"frame": {"x":3651,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00021.png":
+{
+	"frame": {"x":3651,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00022.png":
+{
+	"frame": {"x":4016,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00023.png":
+{
+	"frame": {"x":4016,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00024.png":
+{
+	"frame": {"x":4381,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00025.png":
+{
+	"frame": {"x":4381,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00026.png":
+{
+	"frame": {"x":4746,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00027.png":
+{
+	"frame": {"x":4746,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00028.png":
+{
+	"frame": {"x":5111,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00029.png":
+{
+	"frame": {"x":5111,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00030.png":
+{
+	"frame": {"x":5476,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00031.png":
+{
+	"frame": {"x":5476,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00032.png":
+{
+	"frame": {"x":5841,"y":1,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+},
+"猪魔九张嘴吃_00033.png":
+{
+	"frame": {"x":5841,"y":403,"w":363,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":363,"h":400},
+	"sourceSize": {"w":363,"h":400}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pig-eat.png",
+	"format": "RGBA8888",
+	"size": {"w":6205,"h":804},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:414aaf28946c5d4b64471f5eaa347707:0804182ddb4902b29aeea5eae982d142:1915d2d154f4ac78d982b2ed4e473faf$"
+}
+}
