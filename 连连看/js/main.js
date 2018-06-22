@@ -138,6 +138,7 @@ var  states = {
               });
               tween.onComplete.add(function(evt){
                 evt.visible = false
+                begin = true
               })
             }
             if(result != 0){
@@ -150,17 +151,16 @@ var  states = {
                 });
                 tween.onComplete.add(function(evt){
                   evt.visible = false
+                  begin = true
                 })
               }
             }
             var pigDelay = game.time.create(false)
+            anim = pig.animations.add('play')
             pigDelay.add(300,function(){
               pig.play('play',15)
             })
             pigDelay.start()
-            anim.onComplete.add(function(){
-              begin = true
-            })
           }
           var timer = game.time.create(false)
           timer.add(100,function(){

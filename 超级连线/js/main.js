@@ -89,7 +89,9 @@ function state(){
         每个相同的点有一条自己的线，并且每条线需要记录自己所经过的点，
         如果摧毁当前的线，则需要把点的限制解开。
         并且将lineCount--*/
-        if(evt.x != tipPositions[tipIndex][0][0] || evt.y != (tipPositions[tipIndex][0][1] -30))return
+        if(tipIndex < tipPositions.length -1){
+          if(evt.x != tipPositions[tipIndex][0][0] || evt.y != (tipPositions[tipIndex][0][1] -30))return
+        }
         isMove = true
         if(tween){
           game.tweens.removeAll()
