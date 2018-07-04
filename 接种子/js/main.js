@@ -3,6 +3,32 @@ var height = window.innerHeight
 var game = new Phaser.Game(1024,672,Phaser.AUTO,'game')
 var children = ['child1','child2','child3']
 var level = 0,scaleX,scaleY
+
+
+// 物理引擎：需要game.add.sprite() 对象
+//Box2D:
+// 引入box2d插件,设置启动物理引擎 game.physics.startSystem()
+// game.physics.box2d.restitution 设置效果, 如弹性等,最大值为1 , 为全局设置
+// game.physics.box2d.setBoundsToWorlds() 设置世界边框 , 为全局设置
+// 通过 game.physics.box2d.enable() 将元素设置物理效果,其中第一个参数可为列表
+// sprite.body.setBodyContactCallback() 碰撞检测
+// sprite.body.setCategoryPostsolveCallback() 碰撞检测可检测碰撞后的状态即逐渐静止
+// sprite.body.fixedRotation = true 设置为固定不旋转
+// sprite.body.static = true  设置为静态固定的
+// 在销毁元素的时候要销毁sprite.body
+
+
+// ARCADE
+// 全局设置的相同的
+// game.phyics.arcade.enable(sprite) 将元素添加到物理引擎中, 其中第一个参数可为列表
+// 还可以通过 game.physics.enable(sprite,Phaser.Physics.ARCADE)添加
+// sprite.body.immovable = true 设置元素固定
+// game.physics.arcade.overlap() 无效果的碰撞检测
+// game.physics.arcade.collide() 有效果的碰撞检测
+// 碰撞检测需要再 update 中检测
+
+
+
 var states = {
   preload:function(){
     console.log("preload")
